@@ -11,7 +11,7 @@ Repository containing my solutions and notes from competitive programming platfo
 
 ## Languages
 
-- Python
+- Python (primarily)
 - C++
 - C
 
