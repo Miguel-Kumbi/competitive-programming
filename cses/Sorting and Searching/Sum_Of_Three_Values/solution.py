@@ -2,7 +2,7 @@ import sys
 
 input = sys.stdin.readline
 
-def two_pointer(arr: list, n: int, target: int) -> str:
+def special_two_pointer(arr: list, n: int, target: int) -> str:
 	for i in range(n-2):
 		l = i + 1
 		r = n - 1
@@ -20,4 +20,5 @@ n, target = map(int, input().split())
 ni = [int(v) for v in input().split()]
 ni = [[ni[i], i] for i in range(n)]
 ni.sort()
-print(two_pointer(ni, n, target))
+print(special_two_pointer(ni, n, target))
+
